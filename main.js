@@ -22,13 +22,14 @@ function round(comp, player) {
     }
 }
 
-const buttons = document.querySelectorAll("button");
+const buttons = document.querySelectorAll(".options button");
+const pics = document.querySelectorAll("img");
 const showScore = document.querySelector(".score");
 
 buttons.forEach(function(btn) {
     btn.addEventListener("click", function(e){
-        console.log(e.target.id);
-        let score = round(getComputerChoice(),options[e.target.id]);
+        console.log(e.target.classList.value);
+        let score = round(getComputerChoice(),options[parseInt(e.target.classList.value)]);
         console.log(`Score = ${score}`);
 
         if(score === 1) {
@@ -50,6 +51,7 @@ buttons.forEach(function(btn) {
         }
     });
 });
+
 
 // function game() {
 //     let playerScore = 0;

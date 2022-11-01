@@ -1,0 +1,58 @@
+html{
+    background-color: bisque;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "helvetica",sans-serif;
+    font-size: large;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    border: 20px solid white;
+    border-radius: 10px;
+    width: 1000px;
+    height: 500px;
+    margin: 20px;
+}
+
+.results {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.score {
+    font-weight:600;
+    font-size: 23px;
+}
+
+.options {
+    display:flex;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: 5px solid blueviolet;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
