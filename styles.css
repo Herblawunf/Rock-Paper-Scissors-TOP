@@ -13,6 +13,11 @@ body {
     font-size: large;
 }
 
+.title {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
 .box {
     display: flex;
     flex-direction: column;
@@ -49,10 +54,11 @@ button {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    border: 5px solid blueviolet;
 }
 
 img {
     height: 200px;
     width: 200px;
+    border: 5px solid grey;
+    border-radius: 5px;
 }
